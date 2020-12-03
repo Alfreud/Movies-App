@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/movieFragment"
+        android:title="Movies"
+        android:icon="@drawable/ic_movies"/>
+
+    <item
+        android:id="@+id/mapFragment"
+        android:title="Location"
+        android:icon="@drawable/ic_location"/>
+
+    <item
+        android:id="@+id/galleryFragment"
+        android:title="Gallery"
+        android:icon="@drawable/ic_image"/>
+</menu>
