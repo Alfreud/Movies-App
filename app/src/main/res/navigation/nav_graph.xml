@@ -12,13 +12,21 @@
         tools:layout="@layout/fragment_gallery">
         <action
             android:id="@+id/action_galleryFragment_to_galleryDetailFragment"
-            app:destination="@id/galleryDetailFragment" />
+            app:destination="@id/galleryDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/galleryDetailFragment"
         android:name="com.alfred0ga.moviedbapp.ui.fragments.GalleryDetailFragment"
         android:label="Upload"
-        tools:layout="@layout/fragment_gallery_detail" />
+        tools:layout="@layout/fragment_gallery_detail" >
+        <argument
+            android:name="path"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/mapFragment"
         android:name="com.alfred0ga.moviedbapp.ui.fragments.MapFragment"

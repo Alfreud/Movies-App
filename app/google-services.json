@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341909922288",
+    "project_id": "moviedbapp-297522",
+    "storage_bucket": "moviedbapp-297522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341909922288:android:7776daa1d6c9679e1a3d35",
+        "android_client_info": {
+          "package_name": "com.alfred0ga.moviedbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341909922288-7pafvjgka3jcgdtl07rbf0em4hkfh4m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDPjSOqZ4-0lL5ZdKDyur-5-Ie31xlaEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341909922288-7pafvjgka3jcgdtl07rbf0em4hkfh4m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
